@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "source": "网易严选 8条 + 慢慢买比价 8条 + 当当网 8条",
+    "source_host": "s.manmanbuy.com, search.dangdang.com, you.163.com",
+    "keyword": "保温杯",
+    "scraped_at": "2026-10-28 12:46:32",
+    "scraped_at_iso": "2026-10-28T12:46:32+08:00",
+    "pages_scraped": [
+      {
+        "page": 1,
+        "parsed": 40,
+        "source": "网易严选"
+      },
+      {
+        "page": 2,
+        "parsed": 40,
+        "source": "网易严选"
+      },
+      {
+        "page": 1,
+        "parsed": 31,
+        "source": "慢慢买比价"
+      },
+      {
+        "page": 2,
+        "parsed": 31,
+        "source": "慢慢买比价"
+      },
+      {
+        "page": 1,
+        "parsed": 60,
+        "source": "当当网"
+      },
+      {
+        "page": 2,
+        "parsed": 60,
+        "source": "当当网"
+      }
+    ],
+    "page_urls": [
+      "https://you.163.com/xhr/search/search.json?keyword=%E4%BF%9D%E6%B8%A9%E6%9D%AF&page=1&style=json&size=40",
+      "https://you.163.com/xhr/search/search.json?keyword=%E4%BF%9D%E6%B8%A9%E6%9D%AF&page=2&style=json&size=40",
+      "https://s.manmanbuy.com/pc/search/result?keyword=%E4%BF%9D%E6%B8%A9%E6%9D%AF&pageId=1",
+      "https://s.manmanbuy.com/pc/search/result?keyword=%E4%BF%9D%E6%B8%A9%E6%9D%AF&pageId=2",
+      "https://search.dangdang.com/?key=%B1%A3%CE%C2%B1%AD&act=input&page_index=1",
+      "https://search.dangdang.com/?key=%B1%A3%CE%C2%B1%AD&act=input&page_index=2"
+    ],
+    "errors": [],
+    "sources": [
+      {
+        "name": "网易严选",
+        "host": "you.163.com",
+        "count": 8,
+        "price_range": [
+          38.0,
+          246.0
+        ],
+        "error": null,
+        "note": null,
+        "dropped": 0
+      },
+      {
+        "name": "慢慢买比价",
+        "host": "s.manmanbuy.com",
+        "count": 8,
+        "price_range": [
+          24.59,
+          60.47
+        ],
+        "error": null,
+        "note": null,
+        "dropped": 1
+      },
+      {
+        "name": "当当网",
+        "host": "search.dangdang.com",
+        "count": 8,
+        "price_range": [
+          69.0,
+          131.0
+        ],
+        "error": null,
+        "note": null,
+        "dropped": 39
+      }
+    ],
+    "total_parsed": 259,
+    "relevant": 219,
+    "dropped": 40,
+    "price_range": [
+      29.5,
+      159.0
+    ],
+    "price_median": 79.0,
+    "shop_count": 4,
+    "picked": 8
+  },
+  "items": [
+    {
+      "sku": "302056556",
+      "source": "网易严选",
+      "source_host": "you.163.com",
+      "platform": "网易严选",
+      "title": "网易严选 大容量吸管保温保冷杯 冰霸杯 316L内胆【限时免邮】",
+      "price": 79.0,
+      "original": 99.0,
+      "shop": "严选自营",
+      "brand": "",
+      "reviews": 67,
+      "reviews_label": "销量",
+      "url": "https://you.163.com/item/detail?itemId=302056556",
+      "page": 1,
+      "capacity_ml": 6000,
+      "material": "316不锈钢",
+      "target": "通用",
+      "feature": [
+        "吸管杯",
+        "大容量"
+      ],
+      "unit_price_per_100ml": 1.32,
+      "relevance": 40
+    },
+    {
+      "sku": "",
+      "source": "慢慢买比价",
+      "source_host": "s.manmanbuy.com",
+      "platform": "天猫",
+      "title": "GERM格米 运动保温杯 柠檬黄 650ml（多颜色样式任选）",
+      "price": 29.55,
+      "original": null,
+      "shop": "天猫旗舰店",
+      "brand": "",
+      "reviews": null,
+      "reviews_label": "评论",
+      "url": "https://cu.manmanbuy.com/discuxiao_594723613.aspx",
+      "price_label": "到手价",
+      "page": 1,
+      "capacity_ml": 650,
+      "material": "材质未标注",
+      "target": "通用",
+      "feature": [],
+      "unit_price_per_100ml": 4.55,
+      "relevance": 170
+    },
+    {
+      "sku": "11512500227",
+      "source": "当当网",
+      "source_host": "search.dangdang.com",
+      "platform": "当当",
+      "title": "智能保温杯大容量男士女高档泡茶杯316不锈钢便携商务水杯子7xr",
+      "price": 131.0,
+      "shop": "梦达家居专营店",
+      "brand": "",
+      "reviews": 5,
+      "url": "https://product.dangdang.com/11512500227.html",
+      "page": 1,
+      "capacity_ml": 0,
+      "material": "316不锈钢",
+      "target": "成人",
+      "feature": [
+        "泡茶杯",
+        "大容量"
+      ],
+      "relevance": 170
+    },
+    {
+      "sku": "302047685",
+      "source": "网易严选",
+      "source_host": "you.163.com",
+      "platform": "网易严选",
+      "title": "江湖豪饮 巨无霸316不锈钢保温杯1.25L",
+      "price": 159.0,
+      "original": 159.0,
+      "shop": "严选自营",
+      "brand": "",
+      "reviews": 293,
+      "reviews_label": "销量",
+      "url": "https://you.163.com/item/detail?itemId=302047685",
+      "page": 1,
+      "capacity_ml": 5000,
+      "material": "316不锈钢",
+      "target": "通用",
+      "feature": [],
+      "unit_price_per_100ml": 3.18,
+      "relevance": 170
+    },
+    {
+      "sku": "",
+      "source": "慢慢买比价",
+      "source_host": "s.manmanbuy.com",
+      "platform": "京东",
+      "title": "富光 500ml 316L不锈钢保温杯 睿智黑 滤网",
+      "price": 29.5,
+      "original": null,
+      "shop": "京东商城",
+      "brand": "",
+      "reviews": null,
+      "reviews_label": "评论",
+      "url": "https://cu.manmanbuy.com/discuxiao_597414280.aspx",
+      "price_label": "到手价",
+      "page": 1,
+      "capacity_ml": 500,
+      "material": "316不锈钢",
+      "target": "通用",
+      "feature": [],
+      "unit_price_per_100ml": 5.9,
+      "relevance": 170
+    },
+    {
+      "sku": "11512508527",
+      "source": "当当网",
+      "source_host": "search.dangdang.com",
+      "platform": "当当",
+      "title": "儿童保温杯女童可爱婴儿水杯子宝宝男孩小学生上学专用水壶7xr",
+      "price": 91.0,
+      "shop": "梦达家居专营店",
+      "brand": "",
+      "reviews": 3,
+      "url": "https://product.dangdang.com/11512508527.html",
+      "page": 2,
+      "capacity_ml": 0,
+      "material": "材质未标注",
+      "target": "儿童",
+      "feature": [],
+      "relevance": 170
+    },
+    {
+      "sku": "301098860",
+      "source": "网易严选",
+      "source_host": "you.163.com",
+      "platform": "网易严选",
+      "title": "绿珠泡茶咖啡保温杯",
+      "price": 38.0,
+      "original": 59.0,
+      "shop": "严选自营",
+      "brand": "",
+      "reviews": 2320,
+      "reviews_label": "销量",
+      "url": "https://you.163.com/item/detail?itemId=301098860",
+      "page": 1,
+      "capacity_ml": 0,
+      "material": "材质未标注",
+      "target": "通用",
+      "feature": [
+        "泡茶杯"
+      ],
+      "relevance": 170
+    },
+    {
+      "sku": "",
+      "source": "慢慢买比价",
+      "source_host": "s.manmanbuy.com",
+      "platform": "京东",
+      "title": "富光 316不锈钢保温杯 月光白 500ml",
+      "price": 34.95,
+      "original": null,
+      "shop": "京东商城",
+      "brand": "",
+      "reviews": null,
+      "reviews_label": "评论",
+      "url": "https://cu.manmanbuy.com/discuxiao_597421125.aspx",
+      "price_label": "到手价",
+      "page": 1,
+      "capacity_ml": 500,
+      "material": "316不锈钢",
+      "target": "通用",
+      "feature": [],
+      "unit_price_per_100ml": 6.99,
+      "relevance": 170
+    }
+  ]
+}
